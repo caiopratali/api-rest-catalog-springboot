@@ -2,6 +2,7 @@ package br.com.pratali.crud.entities;
 
 import jakarta.persistence.*;
 
+import java.io.Serial;
 import java.io.Serializable;
 import java.util.Objects;
 
@@ -9,6 +10,7 @@ import java.util.Objects;
 @Table(name = "tb_category")
 public class Category implements Serializable {
 	
+	@Serial
 	private static final long serialVersionUID = 1L;
 
 	@Id
